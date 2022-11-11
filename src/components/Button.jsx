@@ -5,7 +5,7 @@ const Button = ({ assetUrl, link }) => {
   return (
     <div
     className={styles.btnBlack}
-    onClick={() => window.open(link, "_blank")} //"_blank"открыть на новой странице
+    onClick={() => window.open(link, "_blank")} //"_blank"открыть на новой странице переход
     >
     <img src={assetUrl} alt="expo_icon" className={styles.btnIcon} />
     <div className="flex flex-col justify-start ml-4">
