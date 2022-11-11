@@ -24,7 +24,7 @@ const SectionWrapper = ({ title, description, showBtn, mockupImg, banner, revers
     ${styles.descriptionText}`}>{description}</p>
     {showBtn && (
             <Button assetUrl={assets.expo} 
-            link="deployed nft marketplace rn" />
+            link=" https://expo.dev/accounts/evgeniy_13/projects/Project/builds/954822b5-2f24-4f0f-8037-c9d6e6f7539f" />//вставила ссылку после сборки
           )}
         </div>
         <div className={`flex-1 ${styles.flexCenter}p-8 sm:px-0`}>
